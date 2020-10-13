@@ -1,1 +1,1 @@
-My favourite lake is Stechlinsee
+My favourite lake is Muggelsee
