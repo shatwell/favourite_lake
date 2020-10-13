@@ -1,0 +1,9 @@
+# Add some parameters
+
+mypars:
+  gmax: 20
+  rmax: 10
+  
+otherpars:
+  gmin: 10
+  rmin: 5
