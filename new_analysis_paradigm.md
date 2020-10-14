@@ -9,31 +9,41 @@ output:
 
 
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## some new text
+Here is a small chunk of code to test this markdown thing.
 
 
 ```r
-summary(cars)
+a <- expand.grid(LETTERS[1:5],5:9)
+print(a)
 ```
 
 ```
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
+##    Var1 Var2
+## 1     A    5
+## 2     B    5
+## 3     C    5
+## 4     D    5
+## 5     E    5
+## 6     A    6
+## 7     B    6
+## 8     C    6
+## 9     D    6
+## 10    E    6
+## 11    A    7
+## 12    B    7
+## 13    C    7
+## 14    D    7
+## 15    E    7
+## 16    A    8
+## 17    B    8
+## 18    C    8
+## 19    D    8
+## 20    E    8
+## 21    A    9
+## 22    B    9
+## 23    C    9
+## 24    D    9
+## 25    E    9
 ```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-![](new_analysis_paradigm_files/figure-html/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+That's about it for now.
